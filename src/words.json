@@ -1,0 +1,90 @@
+[
+  {
+    "id": 11346,
+    "english": "street",
+    "transcription": "[stri:t]",
+    "russian": "улица",
+    "tags": "овощи",
+    "tags_json": "[\"u043eu0432u043eu0449u0438\"]"
+  },
+  {
+    "id": 11347,
+    "english": "car",
+    "transcription": "[ kɑ: ]",
+    "russian": "автомобиль",
+    "tags": "транспорт",
+    "tags_json": "[\"u0442u0440u0430u043du0441u043fu043eu0440u0442\"]"
+  },
+  {
+    "id": 11350,
+    "english": "arm",
+    "transcription": "[ ɑ:m ]",
+    "russian": "рука",
+    "tags": "часть тела",
+    "tags_json": "[\"u0447u0430u0441u0442u044c u0442u0435u043bu0430\"]"
+  },
+  {
+    "id": 11354,
+    "english": "air",
+    "transcription": "[  eər ]",
+    "russian": "воздух",
+    "tags": "природа",
+    "tags_json": "[\"u043fu0440u0438u0440u043eu0434u0430\"]"
+  },
+  {
+    "id": 11397,
+    "english": "tea",
+    "transcription": "[ tiː ]",
+    "russian": "чай",
+    "tags": "напиток",
+    "tags_json": "[\"u043du0430u043fu0438u0442u043eu043a\"]"
+  },
+  {
+    "id": 11448,
+    "english": "cat ",
+    "transcription": "[kæt]",
+    "russian": "кот",
+    "tags": "животное",
+    "tags_json": "[\"u0436u0438u0432u043eu0442u043du043eu0435\"]"
+  },
+  {
+    "id": 11449,
+    "english": "sun",
+    "transcription": "[sʌn]",
+    "russian": "солнце",
+    "tags": "природа",
+    "tags_json": "[\"u043fu0440u0438u0440u043eu0434u0430\"]"
+  },
+  {
+    "id": 11450,
+    "english": "summer",
+    "transcription": "[ˈsʌmər]",
+    "russian": "лето",
+    "tags": "время года",
+    "tags_json": "[\"u0432u0440u0435u043cu044f u0433u043eu0434u0430\"]"
+  },
+  {
+    "id": 11451,
+    "english": "rest",
+    "transcription": "[rest]",
+    "russian": "отдых",
+    "tags": "занятия",
+    "tags_json": "[\"u0437u0430u043du044fu0442u0438u044f\"]"
+  },
+  {
+    "id": 11452,
+    "english": "beach",
+    "transcription": "[biːtʃ]",
+    "russian": "пляж",
+    "tags": "места",
+    "tags_json": "[\"u043cu0435u0441u0442u0430\"]"
+  },
+  {
+    "id": 11504,
+    "english": " flower",
+    "transcription": "[ˈflaʊə]",
+    "russian": "цветок",
+    "tags": "",
+    "tags_json": "[]"
+  }
+]
