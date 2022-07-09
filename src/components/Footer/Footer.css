@@ -11,7 +11,7 @@
 }
 .logo {
   width: 35px;
-  background-image: url("../../public/images/flash-cards_colored.png");
+  background-image: url("../../../public/images/flash-cards_colored.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

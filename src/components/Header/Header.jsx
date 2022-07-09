@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Header.css";
-import Authentication from "./Auth.jsx";
+import Authentication from "../Auth/Auth.jsx";
 
 function Header() {
   return (
