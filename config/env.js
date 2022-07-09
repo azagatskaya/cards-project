@@ -7,8 +7,8 @@ const paths = require('./paths');
 // Make sure that including paths.js after env.js will read .env variables.
 delete require.cache[require.resolve('./paths')];
 
-const NODE_ENV = process.env.NODE_ENV;
-console.log(process.env.NODE_ENV);
+const NODE_ENV = process.env.NODE_ENV || 'development';
+console.log(process.env);
 console.log(process.env.BABEL_ENV);
 if (!NODE_ENV) {
   throw new Error(
