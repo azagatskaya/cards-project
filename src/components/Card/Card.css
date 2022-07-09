@@ -1,0 +1,7 @@
+@value colors: '../Theme/colors.css';
+@value first_bg, second_bg from colors;
+
+.card_wrapper {
+  min-width: 500px;
+  height: 450px;
+}
