@@ -1,5 +1,5 @@
-@value colors: './components/Theme/colors.css';
-@value first_bg, second_bg from colors;
+@value variables: './components/Theme/variables.css';
+@value first_bg, first_bg_light, second_bg, header_height, footer_height from variables;
 
 html,
 body {
@@ -13,14 +13,18 @@ body {
   text-align: center;
   width: 100%;
 }
-.card_wrapper {
-  height: 100vh;
+.main {
+  height: calc(100vh - (header_height + footer_height));
   position: relative;
+  background-color: first_bg_light;
+}
+.main__wrapper {
+  width: 1200;
+  max-width: 1200px;
   margin: auto;
   display: flex;
-  -moz-box-pack: center;
-  justify-content: center;
+  flex-direction: column;
+  -moz-box-pack: flex-start;
+  justify-content: flex-start;
   padding: 24px;
-  background-color: first_bg;
-  /* opacity: 0.25; */
 }

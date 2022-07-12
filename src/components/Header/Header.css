@@ -1,9 +1,9 @@
-@value colors: '../Theme/colors.css';
-@value first_bg, second_bg from colors;
+@value variables: '../Theme/variables.css';
+@value first_bg, second_bg, header_height from variables;
 
 .header {
   width: 100%;
-  height: 80px;
+  height: header_height;
   padding: 5px 30px;
   background-color: second_bg;
   display: flex;
@@ -16,4 +16,8 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  filter: drop-shadow(0 0 2px #af52bf99);
+}
+.logo:hover {
+  cursor: pointer;
 }

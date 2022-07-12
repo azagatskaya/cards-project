@@ -1,6 +1,9 @@
+@value variables: '../Theme/variables.css';
+@value first_bg, second_bg, footer_height from variables;
+
 .footer {
   width: 100%;
-  height: 100px;
+  height: footer_height;
   padding: 5px 30px;
   background-color: whitesmoke;
   position: absolute;

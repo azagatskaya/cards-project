@@ -1,0 +1,17 @@
+@value variables: '../Theme/variables.css';
+@value first_bg, second_bg, first_bg_light from variables;
+
+.sets__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sets__buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+}

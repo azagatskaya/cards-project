@@ -1,0 +1,17 @@
+@value variables: '../Theme/variables.css';
+@value first_bg, first_bg_light, second_bg from variables;
+
+.cardSetButton {
+  background-color: first_bg;
+  margin: 15px;
+  padding: 5px 15px;
+  color: #fff;
+  line-height: 2;
+  border-radius: 5px;
+}
+.cardSetButton:first-child {
+  margin-left: 0px;
+}
+.cardSetButton:last-child {
+  margin-right: 0px;
+}
